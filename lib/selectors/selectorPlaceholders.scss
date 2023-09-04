@@ -372,6 +372,9 @@
 .icon-3BcwQu {
   @extend %voiceUserIcon !optional;
 }
+.voiceChannelsButton-SRmgo8 {
+  @extend %voiceChannelsButton !optional;
+}
 .audienceVoiceUserIconContainer-1aQGLF {
   @extend %audienceVoiceUserIconContainer !optional;
 }
@@ -2635,7 +2638,10 @@ pre {
   @extend %forumReactAdd !optional;
 }
 .buttonInner-3aRbcx {
-  @extend %forumReactButton !optional;
+  @extend %forumMessageButton !optional;
+}
+.active-OdlCV- {
+  @extend %forumFollowActive !optional;
 }
 .spoilerText-27bIiA {
   @extend %spoilerText !optional;
@@ -2679,23 +2685,11 @@ pre {
 .input-3O04eu {
   @extend %input !optional;
 }
-.focused-1AtTHC {
+.focused-16iuXg {
   @extend %inputFocused !optional;
 }
 .noBorder-2p63tM {
   @extend %inputNoBorder !optional;
-}
-.multiInput-1VARjC {
-  @extend %multiInput !optional;
-}
-.multiInputFirst-3-OxIz {
-  @extend %multiInputFirst !optional;
-}
-.multiInputLast-35zVz0 {
-  @extend %multiInputLast !optional;
-}
-.multiInputField-1zyopx {
-  @extend %multiInputField !optional;
 }
 .modal-3Hrb0S {
   @extend %modal !optional;
@@ -3695,14 +3689,8 @@ pre {
 .mentionButton-3C5YMI {
   @extend %replyMentionButton !optional;
 }
-.colorMuted-1jNaVo {
-  @extend %replyMentionButtonMuted !optional;
-}
-.colorLink-12GX9V {
-  @extend %replyMentionButtonLink !optional;
-}
 .closeButton-3IEry2 {
-  @extend %replyCancelButton !optional;
+  @extend %replyCloseButton !optional;
 }
 .separator-8ngZ3p {
   @extend %replySeperator !optional;
@@ -4018,6 +4006,9 @@ pre {
 }
 .friendRequestsButton-77veU7 {
   @extend %friendRequestsButton !optional;
+}
+.forumPost-3i1mpe {
+  @extend %messagesPopoutThread !optional;
 }
 .container-2ebMPP {
   @extend %inboxHeader !optional;
@@ -4496,17 +4487,20 @@ pre {
 .text-sm-semibold-3TWn25 {
   @extend %textSmallSemibold !optional;
 }
-.directoryModal-YJsOMv {
+.text-sm-medium-2-Xzsi {
+  @extend %textSmallMedium !optional;
+}
+.directoryContainer-z-0pgp {
   @extend %directoryContainer !optional;
 }
 .category-2OvQ93 {
   @extend %directoryCategory !optional;
 }
-.container-2NdZr9 {
-  @extend %directoryListCard !optional;
-}
 .card-2xymMp {
   @extend %directoryCard !optional;
+}
+.container-2NdZr9 {
+  @extend %directoryListCard !optional;
 }
 .clickable-O5xo4T {
   @extend %directoryCardClickable !optional;
@@ -4517,14 +4511,8 @@ pre {
 .search-2RHhW6 {
   @extend %directorySearchBar !optional;
 }
-.input-3O04eu {
-  @extend %directorySearchBarInput !optional;
-}
-.headerIcon-4CEo5y {
-  @extend %directoryAppIcon !optional;
-}
-.category-3LanTP {
-  @extend %directoryAppCategory !optional;
+.category-qFAw-K.activeCategory-1iqXig {
+  @extend %directorySearchCategory !optional;
 }
 .card-sX105p {
   @extend %directoryAppSupportServer !optional;
@@ -4558,4 +4546,53 @@ pre {
 }
 .keybindHint-2zIIxQ {
   @extend %soundboardHint !optional;
+}
+
+.homeContainer-1T8N7y {
+  @extend %homeContainer !optional;
+}
+.userProfileOuterThemed-2BgJCM {
+  @extend %serverGuideMessage !optional;
+}
+.userCardInner-3c42YR {
+  @extend %serverGuideMessageInner !optional
+}
+.headerIcon-3Q7cOC {
+  @extend %serverGuideIcon !optional;
+}
+.avatarBackground-2PaDOT {
+  @extend %serverGuideAvatar !optional;
+}
+.action-3oG-si {
+  @extend %serverGuideAction !optional;
+}
+.sidebarCardWrapper-34oCuK {
+  @extend %serverGuideSidebarCard !optional;
+}
+.row--LCpto {
+  @extend %serverGuideRow !optional;
+}
+.scroller-38C5lh {
+  @extend %serverSubscription !optional;
+}
+.tierInfoContainer-3o77tj {
+  @extend %serverSubscriptionTier !optional;
+}
+.subscriptionPerks-17BiNa {
+  @extend %serverSubscriptionPerk !optional;
+}
+.roleMessagePreview-NUi2Ri {
+  @extend %serverSubscriptionPreview !optional;
+}
+.navButtons-R_NSvX {
+  @extend %serverExperienceNav !optional;
+}
+.prompt-R8SyL4 {
+  @extend %serverExperiencePrompt !optional;
+}
+.termsFieldBody-2nQ2cD {
+  @extend %serverExperienceTerms !optional;
+}
+.overlay-1wSZ6w {
+  @extend %serverExperienceGradient !optional;
 }
